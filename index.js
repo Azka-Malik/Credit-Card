@@ -11,6 +11,12 @@ sumOdd=0;
 sumEven=0;
 TotalSum=0;
 
+if(number.includes("-") || number.length < 13 || number.length==14 || number.length > 16 )
+{
+   console.log("Invalid Number");
+   return false;
+}
+
 if(number.length==15){
     console.log("American Express");
 }
